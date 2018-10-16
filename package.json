@@ -1,0 +1,31 @@
+{
+  "name": "inview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/inview.js",
+  "scripts": {
+    "build": "webpack --config config/bundler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmentor/inview.git"
+  },
+  "keywords": [
+    "inview",
+    "intersection observer"
+  ],
+  "author": "Kamil Kondratowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xmentor/inview/issues"
+  },
+  "homepage": "https://github.com/xmentor/inview#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
